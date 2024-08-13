@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img class="userIcon" src="./user.png" alt="userIcon">
+    <nav>
+      <button class="burger-menu" aria-label="Toggle menu">
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+        <span class="burger-bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#"><button class="btn nav-btn1">Home</button></a></li>
+        <li><a href="#"><button class="btn nav-btn2">Contact</button></a></li>
+        <li><a href="#"><button class="btn nav-btn3">About</button></a></li>
+      </ul>
+      <button class="log-btn">Login</button>
+    </nav>
+  </header>
+<div class="grid-container">
+  <div class="grid-item-1"></div>
+  <div class="grid-item-2"></div>
+  <div class="grid-item-3"></div>
+  <div class="grid-item-4"></div>
+  <div class="black-box"></div>
+</div>
+<main>
+  <div class="login-form-container">
+    <form id="login-form">
+      <h2>Login</h2>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email@example.com" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-buttons">
+        <button type="button" id="cancel-button">Cancel</button>
+        <button type="submit" id="login-button">Login</button>
+      </div>
+    </form>
+  </div>
+</main>
+<footer>
+  <p>© Copyright 2024</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
