@@ -22,4 +22,4 @@ This project implements a simple login page using HTML, CSS, and JavaScript. It 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/login-page-project.git
+   git clone https://github.com/RUBBOSS/login-page-project.git
